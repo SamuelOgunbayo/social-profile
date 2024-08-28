@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+
+
+/* @font-face {
+    font-family: Inter;
+    src: url(https://fonts.google.com/specimen/Inter);
+} */
+
+.social-card{
+    background-color: hsl(0, 0%, 12%);
+    width: 450px;
+    padding: 40px;
+    padding-bottom: 50px;
+    border-radius: 15px;
+}
+.first-three{
+    text-align: center;
+    color: white;
+}
+img{
+    border-radius: 50%;
+    padding-bottom: 20px;
+    max-width: 80px;
+ 
+    
+}
+h2{
+    color: white;
+    padding-bottom: 7px;
+
+    
+}
+.yellow{
+    color: hsl(75, 94%, 57%);
+    font-weight: bold;
+    padding-bottom: 20px;
+   
+
+}
+
+
+.list-link a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.list{
+    background: hsl(0, 0%, 20%);
+    border-radius: 7px;
+    margin: 15px 10px;
+    padding: 14px;
+
+}
+
+.list-link a:hover {
+    background: hsl(75, 94%, 57%);
+    color: #333;
+}
+
+/* Footer */
+
+footer{
+    color: white;
+    font-size: 15px;
+    
+}
+
+/* Responsiveness for Mobile and Desktop */
+@media (max-width: 375px){
+    .social-card{
+        width: 350px;
+        padding-bottom: 30px;
+    }
+    img{
+        width: 80px;
+    }
+}
+
+@media (max-width : 1440px){
+    .social-card{
+        width: 400px;
+        padding: 40px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        
+    }
+    img{
+        width: 115px;
+    }
+}
